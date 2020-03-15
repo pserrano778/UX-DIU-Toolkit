@@ -89,7 +89,7 @@ angular.module("angular", [])
 					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 3 }
 				], 
 				Goals: ["Viajar a los Estados Unidos", "Aprender a desenvolverse mejor con la tecnología", "Aprender francés"],
-				Frustrations: ["Le gustaría poder ver más a su hija", "Le gustaría conocer a un hombre con el que iniciar una relación"],
+				Frustrations: ["Le gustaría poder ver más a su hija", "Le gustaría conocer a un hombre con el que iniciar una relación", "Le gustaría mudarse a la capital"],
 				Bio: "Siempre ha vivido en Sagunto, una localidad de Valencia cercana a la capital. Estudió filología inglesa en la universidad de Valencia. Gloria vivió con sus padres hasta que se casó con 25 años, que pasó a vivir con su pareja, Marcos, en la misma localidad. Con 26 años tuvo su primera y única hija, Sandra. Con 28 años fue contratada como recepcionista de un hotel de Valencia, en este trabajo por fin podría poner en práctica sus estudios debido a los turistas. Debido a la mala convivencia con su marido, Marcos, finalmente se divorció cuando tenía 43 años. Su Marido se mudó a la capital y ella vivió con su hija hasta que esta comenzó la universidad, debido a que Sandra tendría que irse a estudiar a Madrid. Actualmente Gloria continúa trabajando en el mismo hotel, y debido a que lleva viviendo en Sagunto toda su vida tiene muchos conocidos con los que a menudo hace planes como viajes durante un fin de semana, comidas, etc. Sandra trabaja en Madrid en una empresa de marketing, por lo que a Gloria le gusta despejar su agenda de vez en cuando para visitar a su hija.",
 				Tech: [
 					{ Name: "TIC/Internet", Value: 1 },
@@ -98,7 +98,7 @@ angular.module("angular", [])
 					{ Name: "Software", Value: 0 }
 					
 				], 
-                Contextos:   "Gloria se encuentra en una situación estable, pero después de tantos años su trabajo se le hace muy monótono. Le gustaría aprender un nuevo idioma como el francés para disminuir la monotonía del trabajo." ,
+                Contextos:   "Gloria se encuentra en una situación estable, pero después de tantos años su vida es muy monótona. Le gustaría aprender un nuevo idioma como el francés para disminuir la monotonía del trabajo o mudarse a la capital." ,
 				PreferredChannels: [
 					{ Name: "Publicidad Tradicional (Ads)", Value: 4 },
 					{ Name: "Online & Social Media", Value: 1 },
