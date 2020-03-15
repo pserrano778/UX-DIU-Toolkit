@@ -17,9 +17,9 @@
 
 angular.module("angular", [])
 	.controller("controller", ["$scope", function($scope) { 
-        $scope.Grupo_ID ="DIU1.ABCDEF";
+        $scope.Grupo_ID ="DIU2.pserrano";
         $scope.Curso ="2019/20";
-        $scope.Github_ID ="https://github.com/mgea/UX-DIU-Toolkit";
+        $scope.Github_ID ="https://github.com/pserrano778/UX-DIU-Toolkit";
         
 		$scope.PersonaIndex = 0;
 		$scope.Personas = [
@@ -33,36 +33,36 @@ angular.module("angular", [])
                 
                 
 				Id: 0,
-				Name: "Pedro",
-				Photo: "man.png",
-				Quote: "Carpe Diem",
-				Age: 32,
-				Occupation: "Comercial en empresa de automocion",
-				Family: "Con pareja desde hace 1 año",
-				Location: "Granada (Huetor Vega)",
-				Character: "Le gusta disfrutar del tiempo",
+				Name: "Manuel",
+				Photo: "persona1.jpg",
+				Quote: "La vida no se ha hecho para comprenderla, sino para vivirla.",
+				Age: 24,
+				Occupation: "Acaba de terminar la carrera de Química",
+				Family: "Hijo único",
+				Location: "Vive solo en un piso alquilado de Madrid que se encuentra cerda de la facultad de Ciencias Químicas",
+				Character: "Le gusta la montaña y disfrutar del aire libre, por lo que suele hacer senderismo",
 				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 4 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 1 },
-					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 3 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 5 }
+					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 1 },
+					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 4 },
+					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 2 },
+					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 2 }
 				], 
-				Goals: ["Disfrutar del tiempo libre, viajar", "Cambiar a un trabajo más estable"],
-				Frustrations: ["le gusta la tecnología, pero siempre 'llama a un amigo' para resolver problemas", "Le gustaría tener más tiempo libre y leer más"],
-				Bio: "Es de Modril y vino a Granada para estudiar administración de empresas, pero no ha tenido grandes oportunidades de trabajo. LLeva 2 años contratado en la empresa actual. Aqui ha hecho buenos amigo en el trabajo y normalmente ser reunen para fiestas y a veces organizan viajes",
+				Goals: ["Trabajar en el campo de la investigación", "Encontrar un grupo de personas para hacer rutas de senderismo", "Realizar un viaje a Noruega"],
+				Frustrations: ["Le gustaría mejorar la relación con sus padres", "Le gustaría tener un grupo de amigos con el que comparta más aficiones"],
+				Bio: "Vivía en Braojos de la Sierra, un pueblo de Madrid, junto a sus padres, pero, con el comienzo de sus estudios en la facultad de Ciencias Químicas en Madrid, su familia decidió que viviría en un piso alquilado cerca de la facultad, lo que enfrió la relación con sus padres. Aunque la relación con sus padres no es especialmente buena, estos han pagado sus gastos mientras estudiaba. Aunque ha conocido buenos amigos durante su vida universitaria, estos no comparten sus principales aficiones.",
 				Tech: [
-					{ Name: "TIC/Internet", Value: 2 },
-					{ Name: "Movil", Value: 2 },
+					{ Name: "TIC/Internet", Value: 3 },
+					{ Name: "Movil", Value: 4 },
 					{ Name: "RRSS", Value: 3 },
-					{ Name: "Software", Value: 2 }
+					{ Name: "Software", Value: 1 }
 					
 				], 
-                Contextos: "LLeva un tiempo preocupado y quiere desconectar Le gustaría dar una sorpresa a sus amigos para las vacaciones",  
+                Contextos: "Desde que termino sus estudios lleva pensando en realizar algún viaje con sus ahorros antes de adentrarse en el mundo laboral, ya que le preocupa su tiempo libre una vez comience a trabajar. ",  
 				PreferredChannels: [
-					{ Name: "Publicidad Tradicional", Value: 5 },
-					{ Name: "Online & Social Media", Value: 3 },
+					{ Name: "Publicidad Tradicional", Value: 0 },
+					{ Name: "Online & Social Media", Value: 4 },
 					{ Name: "Recomendaciones & sugerencias", Value: 2 },
-					{ Name: "Persona confianza (amigos, boca a boca)", Value: 1 }
+					{ Name: "Persona confianza (amigos, boca a boca)", Value: 3 }
 				]
 			},
 			{	
@@ -74,36 +74,36 @@ angular.module("angular", [])
                 
                 
 				Id: 1,
-				Name: "Monica Suarez",
-				Photo: "woman.png",
-				Quote: "A quotation that captures the essence of this person's personality",
-				Age: 17,
-				Occupation: "Searching for a cure for the Empress",
-				Family: "No parents, only family are the people who raised him.",
-				Location: "The Grassy Plains of Fantasia",
-				Character: "Strong, reliable and fearless.",
+				Name: "Gloria",
+				Photo: "persona2.jpg",
+				Quote: "La pereza no es más que el hábito de descansar antes de estar cansado",
+				Age: 50,
+				Occupation: "Trabaja como recepcionista en un hotel de Valencia(Capital)",
+				Family: "Actualmente se encuentra divorciada. Tiene una hija de 24 años",
+				Location: "Vive sola en una casa en Sagunto-Valencia",
+				Character: "Le gusta tener siempre algún plan para su tiempo libre, ir de viaje, visitar a su hija, etc",
 				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 3 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 3 },
-					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 2 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 2 }
+					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 5 },
+					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 2 },
+					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 4 },
+					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 3 }
 				], 
-				Goals: ["The goals this user hopes to achieve.", "A task that needs to be completed.", "A life goal to be reached.", "An experience to be felt."],
-				Frustrations: ["The frustrations this user would like to avoid.", "The obstacle that prevents the user from achieving their goals.", "The problems with the solutions already available.", "The product or service which does not currently exist."],
-				Bio: "The bio should be a short paragraph to describe the user journey. It should include some of their history leading up to a current use case. It may be helpful to incorporate information listed across the template and add pertinent details that may have been left out. Highlight factors of the user's personal and professional life that make this user an ideal customer of your product.",
+				Goals: ["Viajar a los Estados Unidos", "Aprender a desenvolverse mejor con la tecnología", "Aprender francés"],
+				Frustrations: ["Le gustaría poder ver más a su hija", "Le gustaría conocer a un hombre con el que iniciar una relación"],
+				Bio: "Siempre ha vivido en Sagunto, una localidad de Valencia cercana a la capital. Estudió filología inglesa en la universidad de Valencia. Gloria vivió con sus padres hasta que se casó con 25 años, que pasó a vivir con su pareja, Marcos, en la misma localidad. Con 26 años tuvo su primera y única hija, Sandra. Con 28 años fue contratada como recepcionista de un hotel de Valencia, en este trabajo por fin podría poner en práctica sus estudios debido a los turistas. Debido a la mala convivencia con su marido, Marcos, finalmente se divorció cuando tenía 43 años. Su Marido se mudó a la capital y ella vivió con su hija hasta que esta comenzó la universidad, debido a que Sandra tendría que irse a estudiar a Madrid. Actualmente Gloria continúa trabajando en el mismo hotel, y debido a que lleva viviendo en Sagunto toda su vida tiene muchos conocidos con los que a menudo hace planes como viajes durante un fin de semana, comidas, etc. Sandra trabaja en Madrid en una empresa de marketing, por lo que a Gloria le gusta despejar su agenda de vez en cuando para visitar a su hija.",
 				Tech: [
-					{ Name: "TIC/Internet", Value: 5 },
-					{ Name: "Mobile", Value: 3 },
-					{ Name: "RRSS", Value: 3 },
-					{ Name: "Software", Value: 5 }
+					{ Name: "TIC/Internet", Value: 1 },
+					{ Name: "Mobile", Value: 2 },
+					{ Name: "RRSS", Value: 2 },
+					{ Name: "Software", Value: 0 }
 					
 				], 
-                Contextos:   "The goals this user hopes to achieve." ,
+                Contextos:   "Gloria se encuentra en una situación estable, pero después de tantos años su trabajo se le hace muy monótono. Le gustaría aprender un nuevo idioma como el francés para disminuir la monotonía del trabajo." ,
 				PreferredChannels: [
-					{ Name: "Publicidad Tradicional (Ads)", Value: 5 },
-					{ Name: "Online & Social Media", Value: 2 },
+					{ Name: "Publicidad Tradicional (Ads)", Value: 4 },
+					{ Name: "Online & Social Media", Value: 1 },
 					{ Name: "Recomendaciones & sugerencias", Value: 2 },
-					{ Name: "Persona confianza (amigos, boca a boca)", Value: 2 }
+					{ Name: "Persona confianza (amigos, boca a boca)", Value: 5 }
 				]
 			}
 		];
